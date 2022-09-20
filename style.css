@@ -619,6 +619,10 @@ border-width: 10px; */
      0 0 150px #0ff;
  }
 
+ .foodhours {
+   font-size: 35pt;
+ }
+
  .mySlides {
    border-radius: 99%;
    padding: 10px;
