@@ -27,6 +27,8 @@ header, footer, section, article, nav, aside {
     width: 100%;
  }
 
+
+
  .font-effect-neon {
    font-family: Lato;
    font-size: 2em;
@@ -380,7 +382,7 @@ border-width: 10px; */
 
 
 #food {
-   margin-top: -10%;
+   margin-top: -14%;
    width: 100%;
    height: 90%;
 }
