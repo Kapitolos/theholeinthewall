@@ -745,7 +745,7 @@ p {
 }
 
 #frontpageblurb {
-   margin-top: 33%;
+   margin-top: 100%;
    position: absolute;
    word-wrap: normal;
    font-size: 41pt;
@@ -756,7 +756,7 @@ p {
 
 .neon {
    margin-left: 10%;
-   font-size: 50px;
+   font-size: 40px;
 }
 
 }
@@ -866,7 +866,7 @@ p {
 }
 
 #frontpageblurb {
-   margin-top: 33%;
+   margin-top: 100%;
    position: absolute;
    word-wrap: normal;
    font-size: 41pt;
@@ -878,7 +878,7 @@ p {
 
 .neon {
    margin-left: 10%;
-   font-size: 50px;
+   font-size: 40px;
 }
 
 }
