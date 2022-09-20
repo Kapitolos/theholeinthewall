@@ -655,7 +655,7 @@ and (-webkit-device-pixel-ratio: 3) {
 
    #breakfastmenu {
 
-      background-image: url(burgermobile.jpg);
+      background-image: url(burgermobile2.jpg);
       background-size: 100%;
    }
 
@@ -745,13 +745,13 @@ p {
 }
 
 #frontpageblurb {
-   margin-top: 100%;
+   margin-top: 78%;
    position: absolute;
-   word-wrap: normal;
-   font-size: 41pt;
-   width: 96%;
+   word-wrap: break-word;
+   font-size: 38pt;
+   width: 59%;
    z-index: 1;
-   margin-left: 29%;
+   margin-left: 50%;
 }
 
 .neon {
@@ -775,7 +775,7 @@ p {
 
    #breakfastmenu {
 
-      background-image: url(burgermobile.jpg);
+      background-image: url(burgermobile2.jpg);
       background-size: 100%;
    }
 
@@ -866,13 +866,13 @@ p {
 }
 
 #frontpageblurb {
-   margin-top: 100%;
+   margin-top: 78%;
    position: absolute;
-   word-wrap: normal;
-   font-size: 41pt;
-   width: 96%;
+   word-wrap: break-word;
+   font-size: 38pt;
+   width: 59%;
    z-index: 1;
-   margin-left: 29%;
+   margin-left: 50%;
 
 }
 
