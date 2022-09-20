@@ -649,8 +649,20 @@ and (-webkit-device-pixel-ratio: 3) {
    }
 
    #breakfastmenu {
-      background-repeat:repeat;
+
+      background-image: url(burgermobile.jpg);
+      background-size: 100%;
    }
+
+   #dinnermenu {
+   background-image: url(chickenmobile.jpg);
+   background-size: 100%;
+}
+
+#pizzamenu {
+   background-image: url(ovenmobile.png);
+   background-size: 100%;
+}
 
    #background {
       padding: 0%;
@@ -675,7 +687,7 @@ and (-webkit-device-pixel-ratio: 3) {
       position: relative;
       width: 26%;
       margin-left: 36%;
-      margin-top: 11%;
+      margin-top: 5%;
       margin-bottom: 12%;
       font-family: var(--fontmaster);
   }
@@ -684,7 +696,7 @@ and (-webkit-device-pixel-ratio: 3) {
    font-size: 35pt;
    word-wrap: normal;
    width: 125%;
-   margin-top: 3%;
+   margin-top: 11%;
 }
 #barslides {
    margin-left: 22%;
@@ -728,7 +740,7 @@ p {
 
 .neon {
    margin-left: 10%;
-   font-size: 56px;
+   font-size: 50px;
 }
 
 }
@@ -746,7 +758,19 @@ p {
    }
 
    #breakfastmenu {
-      background-repeat:repeat;
+
+      background-image: url(burgermobile.jpg);
+      background-size: 100%;
+   }
+
+   #dinnermenu {
+      background-image: url(chickenmobile.jpg);
+      background-size: 100%;
+   }
+
+   #pizzamenu {
+      background-image: url(ovenmobile.png);
+      background-size: 100%;
    }
 
    #background {
@@ -772,7 +796,7 @@ p {
       position: relative;
       width: 26%;
       margin-left: 36%;
-      margin-top: 11%;
+      margin-top: 5%;
       margin-bottom: 12%;
       font-family: var(--fontmaster);
   }
@@ -781,7 +805,7 @@ p {
    font-size: 35pt;
    word-wrap: normal;
    width: 125%;
-   margin-top: 3%;
+   margin-top: 11%;
 }
 
 #barslides {
@@ -826,7 +850,7 @@ p {
 
 .neon {
    margin-left: 10%;
-   font-size: 56px;
+   font-size: 50px;
 }
 
 }
