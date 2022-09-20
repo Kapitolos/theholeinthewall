@@ -1,7 +1,0 @@
-THITW layout plan.
-
-- Bar 4 picture layout with z-index text "over 50 scotches" etc...
-- 14 TAPS, 40 CANS, 93 SCOTCHES, Classics and creations, White rose orange redd
-- page for retail
-
-bar page grid of 3 image slideshow in center
