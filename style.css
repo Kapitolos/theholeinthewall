@@ -203,6 +203,50 @@ d
     margin: 5px;
     display: inline;
     padding: 0;
+
+ }
+
+ #barlink {
+   animation-name: linkblink;
+   animation-duration: 2s;
+   animation-iteration-count: infinite ;
+ }
+
+ #lunchlink {
+   animation-name: linkblink;
+   animation-duration: 3.3s;
+   animation-iteration-count: infinite ;
+ }
+
+ #dinnerlink {
+   animation-name: linkblink;
+   animation-duration: 3.5s;
+   animation-iteration-count: infinite ;
+ }
+
+ #pizzalink {
+   animation-name: linkblink;
+   animation-duration: 2.5s;
+   animation-iteration-count: infinite ;
+ }
+
+ #retaillink {
+   animation-name: linkblink;
+   animation-duration: 3.1s;
+   animation-iteration-count: infinite ;
+ }
+
+ #contactlink {
+   animation-name: linkblink;
+   animation-duration: 2.7s;
+   animation-iteration-count: infinite ;
+ }
+
+ @keyframes linkblink {
+      0% {color: var(--color4);}
+      50% {color: rgb(225, 181, 21);}
+      100% {color: var(--color4);}
+      
  }
 
  #mainNav a:link, #mainNav a:visited {
