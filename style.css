@@ -1,6 +1,5 @@
 :root {
    --color1: rgb(0, 0, 0);
-   /* --color2: rgb(227, 28, 28); */
    --color2: rgb(251, 225, 225);
    --color3: rgb(78, 64, 64);
    --color4: #e2e957;
@@ -18,10 +17,8 @@ header, footer, section, article, nav, aside {
     padding-top: 0px;
     text-align: center;
     width:1240px;
-    
     margin: 0 auto;
-/*    background-image: url(https://64.media.tumblr.com/7ae06044bae0ab75a2269bb051481cd8/5e0f3457eb1f1b54-f9/s2048x3072_c0,7813,100000,92188/5be90c90eb7cfe624f6493ae309c724e4e7158aa.jpg);
-*/   background-repeat: no-repeat;
+   
    }
 
  #background {
@@ -126,7 +123,6 @@ d
 #frontpage {
    margin-top: -5%;
    display: grid;
-   /* grid-template-columns: auto auto; */
 }
 
 #frontpageblurb {
@@ -612,8 +608,23 @@ and (-webkit-device-pixel-ratio: 3) {
       background-repeat:repeat;
    }
 
-   .body {
-      width: 1467px;
+   #background {
+      padding: 0%;
+      background-color: black;
+   }
+
+
+   h1 {
+      font-size: 67px;
+   }
+
+   #mainNav {
+      margin-top: 40px;
+
+   }
+
+   #mainNav a:link {
+      font-size: 43px;
    }
 
    #bartextcontainer {
@@ -632,8 +643,48 @@ and (-webkit-device-pixel-ratio: 3) {
    margin-top: 3%;
 }
 #barslides {
-   margin-left: 19%;
-   width: 88%;
+   margin-left: 22%;
+   width: 78%;
+}
+
+#frontpagepic {
+   width: 90%;
+   margin-left: 5%;
+}
+
+article {
+   background-color: var(--color1);
+   color: var(--color2);
+   margin-bottom: 20px;
+   text-align: center;
+   position: relative;
+   border-radius: 3% 10%;
+   width: 92%;
+   margin-left: 5%;
+   margin-top: 41%;
+}
+
+p {
+   font-size: 35pt;
+}
+
+#holelogo {
+   margin-top: -57%;
+}
+
+#frontpageblurb {
+   margin-top: 81%;
+   position: absolute;
+   word-wrap: normal;
+   font-size: 35pt;
+   width: 96%;
+   z-index: 1;
+   margin-left: 16%;
+}
+
+.neon {
+   margin-left: 10%;
+   font-size: 56px;
 }
 
 }
@@ -654,8 +705,23 @@ and (-webkit-device-pixel-ratio: 3) {
       background-repeat:repeat;
    }
 
-   .body {
-      width: 1467px;
+   #background {
+      padding: 0%;
+      background-color: black;
+   }
+
+
+   h1 {
+      font-size: 67px;
+   }
+
+   #mainNav {
+      margin-top: 40px;
+
+   }
+
+   #mainNav a:link {
+      font-size: 43px;
    }
 
    #bartextcontainer {
@@ -675,10 +741,48 @@ and (-webkit-device-pixel-ratio: 3) {
 }
 
 #barslides {
-   margin-left: 19%;
-   width: 88%;
+   margin-left: 22%;
+   width: 78%;
 }
 
+#frontpagepic {
+   width: 90%;
+   margin-left: 5%;
+}
 
+article {
+   background-color: var(--color1);
+   color: var(--color2);
+   margin-bottom: 20px;
+   text-align: center;
+   position: relative;
+   border-radius: 3% 10%;
+   width: 92%;
+   margin-left: 5%;
+   margin-top: 41%;
+}
+
+p {
+   font-size: 35pt;
+}
+
+#holelogo {
+   margin-top: -57%;
+}
+
+#frontpageblurb {
+   margin-top: 81%;
+   position: absolute;
+   word-wrap: normal;
+   font-size: 35pt;
+   width: 96%;
+   z-index: 1;
+   margin-left: 16%;
+}
+
+.neon {
+   margin-left: 10%;
+   font-size: 56px;
+}
 
 }
