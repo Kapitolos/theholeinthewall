@@ -74,3 +74,16 @@ function carousel() {
   x[slideIndex-1].style.display = "block";
   setTimeout(carousel, 3000); // Change image every 2 seconds
 }
+
+function carouselFront() {
+   var frontpagepic = document.getElementById("frontpagepic");
+   if (frontpagepic.src.match("frontpage1.jpg")) {
+     frontpagepic.src = "frontpage2.jpg";
+   } else {
+     frontpagepic.src = "frontpage1.jpg";
+   }
+   setTimeout(carousel, 5000);
+ }
+ 
+ carouselFront();
+ 
